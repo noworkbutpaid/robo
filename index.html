@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANDROGE INU - NFT GAME</title>
+    <title>Cybox NFT Collections HTML Template</title>
     <link rel="stylesheet" href="app/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="app/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="app/dist/app.css">
@@ -14,109 +14,1031 @@
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
 </head>
-<body class="header-fixed inner-page about">
+<body class="header-fixed main">
         <!-- preloade -->
         <div class="preload preload-container">
             <div class="preload-logo"></div>
         </div>
         <!-- /preload -->
     <div id="wrapper">
-
-    <section class="page-title coming-soon">
+        <!-- Header -->
+    <header id="header_main" class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="header__logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
-                    </div>
-                    <div class="sub-heading"><span>Site</span><span>Under</span><span>Construction</span></div>
-                    <h3 data-aos="zoom-in" data-aos-duration="800">
-                        <span>Coming</span><span>Soon</span>
-                    </h3>
+            <div id="site-header-inner">
+                <div class="header__logo">
+                    <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
                 </div>
-                <div class="col-md-12">
-                    <div class="featured-countdown">
-                        <span class="slogan"></span>
-                        <span class="js-countdown" data-timer="100000"></span>
-                        <ul class="desc">
-                            <li>Days</li>
-                            <li>Hours</li>
-                            <li>Minutes</li>
-                            <li>Seconds</li>
-                        </ul>
-                    </div>
-                    <form action="#" class="newlletter-form" id="subscribe-form">
-                        <span></span>
-                        <input type="email" placeholder="Your Email Address" required="" id="subscribe-email">
-                        <div class="btn-pst">
-                            <button class="tf-button-st2 btn-effect" type="submit" id="subscribe-button"> <span class="effect">Sign Up</span></button>
-                        </div>
-                    </form>
-                    <ul class="widget-social">
-
-                            <!-- Twitter -->
-                        <li><a href="https://twitter.com/androgeinu"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z" fill="#c5eef3"/>
-                            </svg>                                                 
-                            </a></li>
-
-                            <!-- TG -->
-                        <li><a href="https://t.me/androgeinu">
-                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445  c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758 c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125 c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077    C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z" fill="#c5eef3"/>
-                                </svg>                                                               
-                            </a></li>
-
-                            <!-- YT -->
-                        <li><a href="https://www.youtube.com/channel/UCSgBlqNOiFW6jBrkh9O4mow"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z" fill="#c5eef3"/>
-                            </svg>
-                            </li>
-
-                            <!-- medium -->
-                        <li><a href="https://medium.com/@androgeinu/"><svg width="30" height="30"
-                            viewBox="0 0 50 50"fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M45,4H5C4.448,4,4,4.448,4,5v40c0,0.552,0.448,1,1,1h40c0.552,0,1-0.448,1-1V5C46,4.448,45.552,4,45,4z M40,13.5 l-1.821,2.197C38.064,15.811,38,15.965,38,16.125V32.75c0,0.16,0.064,0.314,0.179,0.428L40,35.546V36H30v-0.454l2.821-2.368 C32.936,33.064,33,32.91,33,32.75V17.879L24.848,36h-0.001h-1.543l0,0L15,18.375v13.108c0,0.22,0.076,0.433,0.215,0.605L18,35.546 V36h-8v-0.454l2.783-3.438C12.923,31.936,13,31.721,13,31.5V16.388c0-0.142-0.05-0.279-0.142-0.388L11,13.5V13h7.097l7.624,16.183 L33.002,13H40V13.5z" fill="#c5eef3"/>
-                            </svg>                                                       
-                            </a></li>
-
-                            <!-- FB -->
-                        <li><a href="https://web.facebook.com/AndrogeInu"><svg width="30" height="30" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M48,7H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h17V38h-6v-7h6v-5c0-7,4-11,10-11c3.133,0,5,1,5,1v6h-4 c-2.86,0-4,2.093-4,4v5h7l-1,7h-6v17h8c4.418,0,8-3.582,8-8V15C56,10.582,52.418,7,48,7z" fill="#c5eef3"/>
-                            </svg>                            
-                            </a></li>
-
-                            <!-- reddit -->
-
-                        <li><a href="https://www.reddit.com/r/androgeinu"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 29 3 C 26.894531 3 24.433594 4.652344 24.0625 12.03125 C 24.375 12.023438 24.683594 12 25 12 C 25.351563 12 25.714844 12.019531 26.0625 12.03125 C 26.300781 7.597656 27.355469 5 29 5 C 29.703125 5 30.101563 5.382813 30.84375 6.1875 C 31.710938 7.128906 32.84375 8.351563 35.0625 8.8125 C 35.027344 8.550781 35 8.269531 35 8 C 35 7.578125 35.042969 7.179688 35.125 6.78125 C 33.75 6.40625 33.023438 5.613281 32.3125 4.84375 C 31.519531 3.984375 30.609375 3 29 3 Z M 41 4 C 38.792969 4 37 5.796875 37 8 C 37 10.203125 38.792969 12 41 12 C 43.207031 12 45 10.203125 45 8 C 45 5.796875 43.207031 4 41 4 Z M 25 14 C 12.867188 14 3 20.179688 3 29 C 3 37.820313 12.867188 45 25 45 C 37.132813 45 47 37.820313 47 29 C 47 20.179688 37.132813 14 25 14 Z M 7.5 14.9375 C 6.039063 14.9375 4.652344 15.535156 3.59375 16.59375 C 1.871094 18.316406 1.515625 20.792969 2.5 22.84375 C 4.011719 19.917969 6.613281 17.421875 9.96875 15.5625 C 9.207031 15.175781 8.363281 14.9375 7.5 14.9375 Z M 42.5 14.9375 C 41.636719 14.9375 40.792969 15.175781 40.03125 15.5625 C 43.386719 17.421875 45.988281 19.917969 47.5 22.84375 C 48.484375 20.792969 48.128906 18.316406 46.40625 16.59375 C 45.347656 15.535156 43.960938 14.9375 42.5 14.9375 Z M 17 23 C 18.65625 23 20 24.34375 20 26 C 20 27.65625 18.65625 29 17 29 C 15.34375 29 14 27.65625 14 26 C 14 24.34375 15.34375 23 17 23 Z M 33 23 C 34.65625 23 36 24.34375 36 26 C 36 27.65625 34.65625 29 33 29 C 31.34375 29 30 27.65625 30 26 C 30 24.34375 31.34375 23 33 23 Z M 16.0625 34 C 16.3125 34.042969 16.558594 34.183594 16.71875 34.40625 C 16.824219 34.554688 19.167969 37.6875 25 37.6875 C 30.910156 37.6875 33.257813 34.46875 33.28125 34.4375 C 33.597656 33.988281 34.234375 33.867188 34.6875 34.1875 C 35.136719 34.503906 35.222656 35.109375 34.90625 35.5625 C 34.789063 35.730469 31.9375 39.6875 25 39.6875 C 18.058594 39.6875 15.210938 35.730469 15.09375 35.5625 C 14.777344 35.109375 14.859375 34.503906 15.3125 34.1875 C 15.539063 34.027344 15.8125 33.957031 16.0625 34 Z" fill="#c5eef3"/>
-                            </svg>                                                      
-                            </a></li>
-                            
-                            <!-- discord -->
-                        <li><a href="https://discord.gg/7reJ67UvFe"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 41.625 10.769531 C 37.644531 7.566406 31.347656 7.023438 31.078125 7.003906 C 30.660156 6.96875 30.261719 7.203125 30.089844 7.589844 C 30.074219 7.613281 29.9375 7.929688 29.785156 8.421875 C 32.417969 8.867188 35.652344 9.761719 38.578125 11.578125 C 39.046875 11.867188 39.191406 12.484375 38.902344 12.953125 C 38.710938 13.261719 38.386719 13.429688 38.050781 13.429688 C 37.871094 13.429688 37.6875 13.378906 37.523438 13.277344 C 32.492188 10.15625 26.210938 10 25 10 C 23.789063 10 17.503906 10.15625 12.476563 13.277344 C 12.007813 13.570313 11.390625 13.425781 11.101563 12.957031 C 10.808594 12.484375 10.953125 11.871094 11.421875 11.578125 C 14.347656 9.765625 17.582031 8.867188 20.214844 8.425781 C 20.0625 7.929688 19.925781 7.617188 19.914063 7.589844 C 19.738281 7.203125 19.34375 6.960938 18.921875 7.003906 C 18.652344 7.023438 12.355469 7.566406 8.320313 10.8125 C 6.214844 12.761719 2 24.152344 2 34 C 2 34.175781 2.046875 34.34375 2.132813 34.496094 C 5.039063 39.605469 12.972656 40.941406 14.78125 41 C 14.789063 41 14.800781 41 14.8125 41 C 15.132813 41 15.433594 40.847656 15.621094 40.589844 L 17.449219 38.074219 C 12.515625 36.800781 9.996094 34.636719 9.851563 34.507813 C 9.4375 34.144531 9.398438 33.511719 9.765625 33.097656 C 10.128906 32.683594 10.761719 32.644531 11.175781 33.007813 C 11.234375 33.0625 15.875 37 25 37 C 34.140625 37 38.78125 33.046875 38.828125 33.007813 C 39.242188 32.648438 39.871094 32.683594 40.238281 33.101563 C 40.601563 33.515625 40.5625 34.144531 40.148438 34.507813 C 40.003906 34.636719 37.484375 36.800781 32.550781 38.074219 L 34.378906 40.589844 C 34.566406 40.847656 34.867188 41 35.1875 41 C 35.199219 41 35.210938 41 35.21875 41 C 37.027344 40.941406 44.960938 39.605469 47.867188 34.496094 C 47.953125 34.34375 48 34.175781 48 34 C 48 24.152344 43.785156 12.761719 41.625 10.769531 Z M 18.5 30 C 16.566406 30 15 28.210938 15 26 C 15 23.789063 16.566406 22 18.5 22 C 20.433594 22 22 23.789063 22 26 C 22 28.210938 20.433594 30 18.5 30 Z M 31.5 30 C 29.566406 30 28 28.210938 28 26 C 28 23.789063 29.566406 22 31.5 22 C 33.433594 22 35 23.789063 35 26 C 35 28.210938 33.433594 30 31.5 30 Z" fill="#c5eef3"/>
-                            </svg>                                                       
-                            </a></li>
-
-                            <!-- tiktok -->
-                        <li><a href="#"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z" fill="#c5eef3"/>
-                            </svg>                                                      
-                            </a></li>
-                            <!-- tiktok -->
+                <nav id="main-nav" class="main-nav">
+                    <ul id="menu-primary-menu" class="menu">
+                        <li >
+                            <a href="#">Home</a>
+                        </li>
+                        <li >
+                            <a href="#About">About</a>
+                        </li>
+                        <li >
+                            <a href="#Roadmap">Road Map </a>
+                        </li>
+                        <li >
+                            <a href="#Tokenomics">Tokenomics</a>
+                        </li>
+                        <li >
+                            <a href="#NFT">NFTs</a>
+                        </li>
+                        <li >
+                            <a href="#Merch">Merch</a>
+                        </li>
+                        <li >
+                            <a href="#FAQs">FAQs</a>
+                        </li>
                     </ul>
+                </nav><!-- /#main-nav -->
+                        <a class="tf-button btn-effect" href="https://t.me/androgeinu">   
+                            <span class="boder-fade"></span>                                     
+                            <span class="effect">join Telegram</span>
+                        </a>
+                <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
+            </div>
+        </div>
+    </header>
+    <!-- end Header -->
+
+     <section class="page-title">
+        <div class="swiper-container slider-main">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider-st3">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="box-slider">
+                                        <div class="content-box">
+                                            <h2 class="title">ANDROGE INU the story begins</h2>
+                                            <p class="sub-title">In the world where biotechnology is a must.</p>
+                                                <div class="wrap-btn style2">
+                                                    <a href="https://pancakeswap.finance/swap?outputCurrency=0xBE18997fea80101088824e930E53224273129376" class="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span class="effect">Buy Token</span></a>
+                                                    <a href="https://www.youtube.com/watch?v=mfcmgxEcDmY" class="tf-button btn-effect popup-youtube">
+                                                        <span class="boder-fade"></span>                                     
+                                                        <span class="effect">Trailer</span>
+                                                    </a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="tf-section tf-about pb-mobie" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="content-about mobie-40" data-aos="fade-up" data-aos-duration="800">
+                        <div class="tf-title st2">
+                            <p class="h8 sub-title">About us</p>
+                            <h4 class="title">What is Androge Inu?</h4>
+                        </div>
+                        <p class="sub-title">Androge Inu ($ANDROGEINU) is aiming to merge the Metaverse and play-to-earn (P2E) sectors, making it one of the best cryptos to hold long-term. Despite only being in stealth launch, it will also soon be audited by (Techrate).</p>
+                            <a class="tf-button st2 btn-effect">   
+                                <span class="boder-fade"></span>                                     
+                                <span class="effect">get Nfts</span>
+                            </a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="wrap-about p-l70" data-aos="fade-up" data-aos-duration="800">
+                        <div class="box-text corner-box active">
+                            <div class="h7">Safety and Security</div>
+                            <p class="sub-title">All people hate rugs except for those who are doing it. In Androge Inu, 100% of its liquidity is locked for a year, and the contract address was renounced. Therefore no one can manipulate tax or disable trading, giving holders safety and new investors trust in the project.</p>
+                        </div>
+                        <div class="box-text corner-box">
+                            <div class="h7">Development and Utilities</div>
+                            <p class="sub-title">The project will be split into different platforms, each of which is packed full of utility. The first one will be the 2D infinite runner, in which players can enjoy fun and thrill at the same time rewards that go with it, second will be the NFT Open-world metaverse, in which players will dive into Androge World to explore its vastness.
+</p>
+                        </div>
+                        <div class="box-text corner-box mb-0">
+                            <div class="h7">Other Platforms</div>
+                            <p class="sub-title">The other platforms in Androge Inu Ecosystem are Androge Inu Swap (a decentralized exchange), Androge Inu Battle Market (an NFT marketplace for in-game assets and art from creators), Androge Inu Battle Arena (an immersive Metaverse world), and Androge Inu Battle Stake (a staking platform that allows users to earn interest on $ANDROGEINU and other cryptos).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tf-section tf-project pb-mobie" id="NFT">
+        <div class="container-fluid">
+            <div class="swiper-container swiper mySwiper swiper-h">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper mySwiper1 swiper-v">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft1.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Amethyst Rouge</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft8.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Mooninu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft2.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Saturnoge</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft3.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Chain Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft4.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Taiyaon</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft5.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Veerdeever</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft6.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Droge Frost</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft7.png" alt="">
+                                        <div class="content">
+                                           <a href="item.html">Inutron</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft8.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Mooninu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container swiper mySwiper swiper-h">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper mySwiper2 swiper-v">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft7.png" alt="">
+                                        <div class="content">
+                                           <a href="item.html">Inutron</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft3.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Chain Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft2.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Saturnoge</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft6.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Droge Frost</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft8.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Mooninu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft1.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Amethyst Rouge</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft5.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Veerdeever</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-box">
+                                        <img src="assets/images/common/nft4.png" alt="">
+                                        <div class="content">
+                                         <a href="item.html">Taiyaon</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tf-section tf-roadmap"  id="Roadmap">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title m-b30" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">ROADMAP</p>
+                        <h4 class="title">Androge Inu Timeline</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="roadmap scrol">
+                        <div class="box box-left">
+                            <div class="rm-box style" data-aos="fade-right" data-aos-duration="1200">
+                                <div class="corner-box">
+                                    <h5>Phase 1</h5>
+                                    <ul>
+                                        <li>Stealth Launch</li>
+                                        <li>Demo Trailer</li>
+                                        <li>Website Launch</li>
+                                        <li>Whitepaper</li>
+                                        <li>Audit Smart Contract</li>
+                                        <li>Marketing Campaign</li>
+                                        <li>Demo Game Beta Test</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rm-box" data-aos="fade-right" data-aos-duration="1200">
+                                <div class="corner-box">
+                                    <h5>Phase 3</h5>
+                                    <ul>
+                                        <li>Dextool Trending</li>
+                                        <li>Utility Sneekpeak</li>
+                                        <li>Chinese Marketing</li>
+                                        <li>NFT Marketplace</li>
+                                        <li>Utility Launch</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rm-box" data-aos="fade-right" data-aos-duration="1200">
+                                <div class="corner-box">
+                                    <h5>Phase 5</h5>
+                                    <ul>
+                                        <li>Loading . . .</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box-right">
+                            <div class="rm-box style" data-aos="fade-left" data-aos-duration="1200">
+                                <div class="corner-box">
+                                    <h5>Phase 2</h5>
+                                    <ul>
+                                        <li>First Utility Sneak peeneak</li>
+                                        <li>Aggressive Marketing</li>
+                                        <li>Demo Game Released</li>
+                                        <li>CoinMarketcap</li>
+                                        <li>Coingecko</li>
+                                        <li>First Utility Launch</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rm-box" data-aos="fade-left" data-aos-duration="1200">
+                                <div class="corner-box">
+                                    <h5>Phase 4</h5>
+                                    <ul>
+                                        <li>Certik Audit</li>
+                                        <li>Cex Listing</li>
+                                        <li>Utility Sneekpeak</li>
+                                        <li>Game Update</li>
+                                        <li>Utility Update</li>
+                                        <li>Website Update</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tf-section how-we-work"  id="Tokenomics">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title st2 m-b60" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">Our Economy</p>
+                        <h4 class="title m-b17">Tokenomics</h4>
+                        <p> A combination of the words “token” and “economics” – is a term that refers to all the aspects that dictate the economics of a crypto token, making it appealing to investors. This includes a token's functionality, objective, allocation policy, and emissions schedule </p>
+                    </div>
+                   
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                    <div class="box-text st2 corner-box active">
+                        <div class="number"></div>
+                        <div class="h7">Total Supply</div>
+                        <p class="sub-title">1,000,000,000,000</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                    <div class="box-text st2 corner-box">
+                        <!-- <div class="number">02</div> -->
+                        <div class="h7">Initial Burn</div>
+                        <p class="sub-title">500,000,000,000</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                    <div class="box-text st2 corner-box">
+                        <!-- <div class="number">03</div> -->
+                        <div class="h7">Max Wallet</div>
+                        <p class="sub-title">25,000,000,000</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+                    <div class="box-text st2 mobie-mb-0 corner-box">
+                        <!-- <div class="number">04</div> -->
+                        <div class="h7">Tax Buy/Sell</div>
+                        <p class="sub-title">Total 9%: 1% LP, 4% M, 4% D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="tf-section tf-team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-12">
+                    <div class="tf-title st2 m-b61" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">Our team</p>
+                        <h4 class="title">Meet our TEAM</h4>
+                    </div>
+                    <div class="content mobie-30" data-aos="fade-up" data-aos-duration="800">
+                        <div class="h7 txt-tranf-cap m-b16">
+                            Who we are
+                        </div>
+                        <p class="sub-title">Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. 
+                            Venenatis congue id quis eget viverra. 
+                            Vestibulum, justo, euismod congue feugiat eget fames gravida posuere. </p>
+                    </div>
+                    <div class="button-fx m-t60" data-aos="fade-in" data-aos-duration="800">
+                        <div class="btn-prev button-prev-team">
+                            <span class="boder-fade"></span>  
+                            <span class="effect"><i class="far fa-chevron-left"></i></span>
+                        </div>
+                        <div class="btn-next button-next-team">
+                            <i class="far fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-12"> 
+                    <div class="wrap-team" data-aos="fade-up" data-aos-duration="800">
+                        <div class="swiper-container sl-team">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team6.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Esther Howard</div>
+                                            <p class="sub-title">Co-founder & COO</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team7.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Devon Lane</div>
+                                            <p class="sub-title">Blockchain Developer</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team8.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Ralph Edwards</div>
+                                            <p class="sub-title">Backend Engineer</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team9.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Esther Howard</div>
+                                            <p class="sub-title">Co-founder & COO</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team10.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Devon Lane</div>
+                                            <p class="sub-title">Blockchain Developer</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-box">
+                                        <div class="image">
+                                            <img src="assets/images/common/team11.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="h8">Ralph Edwards</div>
+                                            <p class="sub-title">Backend Engineer</p>
+                                            <ul class="social">
+                                                <li><a href="#">
+                                                    <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.3509 1.92618C12.9509 1.55086 13.3998 0.959866 13.6138 0.263552C13.0501 0.613589 12.4332 0.860164 11.79 0.992617C10.8983 0.00549142 9.48538 -0.23473 8.34084 0.406182C7.19629 1.04709 6.60345 2.41047 6.89359 3.73449C4.58431 3.61317 2.43281 2.4717 0.974472 0.594117C0.213393 1.9678 0.60232 3.72383 1.86328 4.60713C1.4073 4.59179 0.961439 4.4626 0.562865 4.23034C0.562865 4.24295 0.562865 4.25555 0.562865 4.26816C0.563128 5.69908 1.52688 6.93165 2.8672 7.21523C2.44425 7.33564 2.00062 7.35337 1.57013 7.26706C1.94707 8.49076 3.02485 9.3291 4.25328 9.35411C3.23586 10.1897 1.97938 10.6429 0.686012 10.6407C0.456764 10.641 0.227696 10.6272 0 10.5993C1.31339 11.4825 2.84201 11.9513 4.40319 11.9496C6.57518 11.9652 8.66251 11.0692 10.1983 9.46197C11.7341 7.85475 12.5902 5.67043 12.5751 3.39762C12.5751 3.26736 12.5722 3.13779 12.5664 3.00893C13.1289 2.58354 13.6144 2.05655 14 1.45275C13.476 1.69581 12.9201 1.8554 12.3509 1.92618Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0 7.04213C0.000814479 10.5069 2.50488 13.457 5.9059 14V9.07758H4.13V7.04213H5.908V5.49265C5.82852 4.75843 6.07776 4.02669 6.58815 3.49588C7.09853 2.96507 7.81715 2.69021 8.5491 2.74584C9.07447 2.75438 9.59853 2.80146 10.1171 2.8867V4.6186H9.2323C8.92769 4.57846 8.62145 4.67968 8.39984 4.89375C8.17823 5.10782 8.06524 5.41157 8.0927 5.71943V7.04213H10.0324L9.7223 9.07829H8.0927V14C11.7708 13.4151 14.3501 10.0353 13.9619 6.30899C13.5736 2.5827 10.3539 -0.185546 6.63518 0.00972283C2.91645 0.204992 0.000591134 3.29542 0 7.04213Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.0824 0.50766C16.7958 0.267252 16.3457 0.232854 15.8803 0.417696H15.8795C15.3901 0.611989 2.02437 6.28352 1.48027 6.51523C1.3813 6.54925 0.517004 6.86829 0.606032 7.57893C0.685508 8.21964 1.38016 8.485 1.46498 8.51561L4.86296 9.66663C5.08839 10.409 5.91945 13.148 6.10324 13.7332C6.21787 14.0979 6.40471 14.5772 6.73217 14.6759C7.0195 14.7855 7.30531 14.6853 7.49024 14.5417L9.5677 12.6354L12.9213 15.2229L13.0012 15.2701C13.2289 15.3699 13.4471 15.4198 13.6554 15.4198C13.8162 15.4198 13.9706 15.3899 14.1181 15.3302C14.6205 15.1261 14.8215 14.6525 14.8425 14.5988L17.3475 1.71764C17.5004 1.02968 17.2879 0.679651 17.0824 0.50766ZM7.85973 10.127L6.71344 13.151L5.56716 9.37103L14.3554 2.94501L7.85973 10.127Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M15.0713 2.07726C13.6176 0.907426 11.3179 0.709125 11.2194 0.701991C11.0668 0.689152 10.9213 0.77475 10.8585 0.915986C10.8528 0.924546 10.8029 1.0401 10.7472 1.21986C11.7088 1.38249 12.89 1.70919 13.9586 2.37258C14.1298 2.47815 14.1826 2.70355 14.077 2.87475C14.0071 2.98745 13.8887 3.0488 13.766 3.0488C13.7004 3.0488 13.6333 3.03025 13.5734 2.99316C11.7359 1.85328 9.44187 1.79622 8.99961 1.79622C8.55735 1.79622 6.26191 1.85328 4.42583 2.99316C4.25464 3.10016 4.02923 3.04737 3.92366 2.87618C3.81666 2.70355 3.86945 2.47957 4.04064 2.37258C5.10919 1.71062 6.29044 1.38249 7.25199 1.22128C7.19635 1.0401 7.14642 0.925973 7.14214 0.915986C7.07794 0.77475 6.93385 0.686299 6.77977 0.701991C6.68134 0.709125 4.38161 0.907426 2.9079 2.09296C2.13894 2.80484 0.599609 6.9649 0.599609 10.5614C0.599609 10.6256 0.616729 10.687 0.648115 10.7426C1.70953 12.6086 4.60701 13.0966 5.26754 13.118C5.2704 13.118 5.27468 13.118 5.27896 13.118C5.39594 13.118 5.50579 13.0623 5.57427 12.9682L6.24193 12.0494C4.4401 11.5843 3.51992 10.794 3.46714 10.7469C3.31591 10.6142 3.30165 10.3831 3.43575 10.2319C3.56843 10.0807 3.79954 10.0664 3.95076 10.1991C3.97216 10.219 5.667 11.6571 8.99961 11.6571C12.3379 11.6571 14.0328 10.2133 14.0499 10.1991C14.2011 10.0678 14.4308 10.0807 14.5649 10.2333C14.6976 10.3845 14.6833 10.6142 14.5321 10.7469C14.4793 10.794 13.5591 11.5843 11.7573 12.0494L12.4249 12.9682C12.4934 13.0623 12.6033 13.118 12.7203 13.118C12.7245 13.118 12.7288 13.118 12.7317 13.118C13.3922 13.0966 16.2897 12.6086 17.3511 10.7426C17.3825 10.687 17.3996 10.6256 17.3996 10.5614C17.3996 6.9649 15.8603 2.80485 15.0713 2.07726ZM6.6257 9.10056C5.91951 9.10056 5.34744 8.44717 5.34744 7.6397C5.34744 6.83222 5.91951 6.17883 6.6257 6.17883C7.33188 6.17883 7.90396 6.83222 7.90396 7.6397C7.90396 8.44717 7.33188 9.10056 6.6257 9.10056ZM11.3735 9.10056C10.6673 9.10056 10.0953 8.44717 10.0953 7.6397C10.0953 6.83222 10.6673 6.17883 11.3735 6.17883C12.0797 6.17883 12.6518 6.83222 12.6518 7.6397C12.6518 8.44717 12.0797 9.10056 11.3735 9.10056Z" fill="white"/>
+                                                    </svg>
+                                                </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="col-md-12">
+                    <div class="swiper-button-next btn-slide-next"></div>
+                    <div class="swiper-button-prev btn-slide-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="tf-section item-post"  id="Merch">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title m-b26">
+                        <p class="h8 sub-title" data-aos="zoom-in" data-aos-duration="800">Merch</p>
+                        <h4 class="title">Latest Designs</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="swiper-container hv2 sl-post2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="post-item active">
+                                    <div class="wrap">
+                                        <div class="tag">T-shirts</div>
+                                        <div class="image">
+                                            <img src="assets/images/post/imgpost11.png" alt="">
+                                        </div>
+                                        <div class="content-item">
+                                            <div class="content">
+                                                <div class="meta-post">
+                                                    <!-- <a href=""></a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="post-item">
+                                    <div class="tag">Steel Mugs</div>
+                                    <div class="wrap">
+                                        <div class="image">
+                                            <img src="assets/images/post/imgpost12.png" alt="">
+                                        </div>
+                                        <div class="content-item">
+                                            <div class="content">
+                                                <div class="meta-post">
+                                                    
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="post-item">
+                                    <div class="tag">hoodies</div>
+                                    <div class="wrap">
+                                        <div class="image">
+                                            <img src="assets/images/post/imgpost13.png" alt="">
+                                        </div>
+                                        <div class="content-item">
+                                            <div class="content">
+                                                <div class="meta-post">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-slide">
+                                <div class="post-item ">
+                                    <div class="wrap">
+                                        <div class="tag">digitalart</div>
+                                        <div class="image">
+                                            <img src="assets/images/post/imgpost11.jpg" alt="">
+                                        </div>
+                                        <div class="content-item">
+                                            <div class="content">
+                                                <div class="meta-post">
+                                                    <a href="blog-grid.html">20 Jun 2022</a>
+                                                </div>
+                                                <div class="h7 title"><a href="blog-grid.html">NFT Guide: Why They Matter For Music?</a></div>
+                                                <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-12">
+                    <div class="text-center m-t12">
+                        <a class="tf-button st3 btn-effect" href="blog-grid.html">   
+                            <span class="boder-fade"></span>                                     
+                            <span class="effect">Explore more</span>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="tf-section partner bg-st1 pb-mobie-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">partnerS</p>
+                        <h4 class="title">CYBOX INVESTORS</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="item-parner" data-aos="fade-up" data-aos-duration="800">
+                        <div class="swiper-container sl-parner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo6.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo7.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo8.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo9.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-container sl-parner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo7.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo8.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo9.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo10.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo11.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo12.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo13.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo14.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo15.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-container sl-parner">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo13.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo14.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo15.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo16.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo17.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo18.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image">
+                                        <img src="assets/images/logo/logo3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="tf-section faq" id="FAQs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title m-b60" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">FAQs</p>
+                        <h4 class="title">Looking for answers?</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title active">What is the official contract address of Androge Inu?</div>
+                            <p class="toggle-content">The offical contract address of Androge Inu is 0xbe18997fea80101088824e930e53224273129376</p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box">
+                            <div class="h7 toggle-title">How to buy Androge  Inu token?</div>
+                            <p class="toggle-content">First is setup your metamask wallet, go to pancakeswap or just click the buy button at the home page of the website.</p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box">
+                            <div class="h7 toggle-title">How can we buy your NFTs?</div>
+                            <p class="toggle-content">You can buy our NFTs upon Phase 3 of the roadmap, where the NFT marketplace launched.</p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box">
+                            <div class="h7 toggle-title">When is the game release?</div>
+                            <p class="toggle-content">It is expected to be in the Phase 3 of our roadmap.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-main">
+            <img src="assets/images/backgroup/bg-ft1.png" alt="" class="bg1">
+            <img src="assets/images/backgroup/bg-ft2.png" alt="" class="bg2">
+            <div class="container">
+                <ul class="widget-social">
+                    <li>
+                        <a href="https://twitter.com/androgeinu"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z" fill="#c5eef3"/>
+                            </svg>                                                 
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@androgeinu/"><svg width="30" height="30"
+                            viewBox="0 0 50 50"fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M45,4H5C4.448,4,4,4.448,4,5v40c0,0.552,0.448,1,1,1h40c0.552,0,1-0.448,1-1V5C46,4.448,45.552,4,45,4z M40,13.5 l-1.821,2.197C38.064,15.811,38,15.965,38,16.125V32.75c0,0.16,0.064,0.314,0.179,0.428L40,35.546V36H30v-0.454l2.821-2.368 C32.936,33.064,33,32.91,33,32.75V17.879L24.848,36h-0.001h-1.543l0,0L15,18.375v13.108c0,0.22,0.076,0.433,0.215,0.605L18,35.546 V36h-8v-0.454l2.783-3.438C12.923,31.936,13,31.721,13,31.5V16.388c0-0.142-0.05-0.279-0.142-0.388L11,13.5V13h7.097l7.624,16.183 L33.002,13H40V13.5z" fill="#c5eef3"/>
+                            </svg>                                                       
+                            </a>
+                    </li>
+                    <li>
+                       <a href="https://t.me/androgeinu">
+                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445  c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758 c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125 c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077    C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z" fill="#c5eef3"/>
+                                </svg>                                                               
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCSgBlqNOiFW6jBrkh9O4mow"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z" fill="#c5eef3"/>
+                            </svg>                                                    
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/androgeinu"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 29 3 C 26.894531 3 24.433594 4.652344 24.0625 12.03125 C 24.375 12.023438 24.683594 12 25 12 C 25.351563 12 25.714844 12.019531 26.0625 12.03125 C 26.300781 7.597656 27.355469 5 29 5 C 29.703125 5 30.101563 5.382813 30.84375 6.1875 C 31.710938 7.128906 32.84375 8.351563 35.0625 8.8125 C 35.027344 8.550781 35 8.269531 35 8 C 35 7.578125 35.042969 7.179688 35.125 6.78125 C 33.75 6.40625 33.023438 5.613281 32.3125 4.84375 C 31.519531 3.984375 30.609375 3 29 3 Z M 41 4 C 38.792969 4 37 5.796875 37 8 C 37 10.203125 38.792969 12 41 12 C 43.207031 12 45 10.203125 45 8 C 45 5.796875 43.207031 4 41 4 Z M 25 14 C 12.867188 14 3 20.179688 3 29 C 3 37.820313 12.867188 45 25 45 C 37.132813 45 47 37.820313 47 29 C 47 20.179688 37.132813 14 25 14 Z M 7.5 14.9375 C 6.039063 14.9375 4.652344 15.535156 3.59375 16.59375 C 1.871094 18.316406 1.515625 20.792969 2.5 22.84375 C 4.011719 19.917969 6.613281 17.421875 9.96875 15.5625 C 9.207031 15.175781 8.363281 14.9375 7.5 14.9375 Z M 42.5 14.9375 C 41.636719 14.9375 40.792969 15.175781 40.03125 15.5625 C 43.386719 17.421875 45.988281 19.917969 47.5 22.84375 C 48.484375 20.792969 48.128906 18.316406 46.40625 16.59375 C 45.347656 15.535156 43.960938 14.9375 42.5 14.9375 Z M 17 23 C 18.65625 23 20 24.34375 20 26 C 20 27.65625 18.65625 29 17 29 C 15.34375 29 14 27.65625 14 26 C 14 24.34375 15.34375 23 17 23 Z M 33 23 C 34.65625 23 36 24.34375 36 26 C 36 27.65625 34.65625 29 33 29 C 31.34375 29 30 27.65625 30 26 C 30 24.34375 31.34375 23 33 23 Z M 16.0625 34 C 16.3125 34.042969 16.558594 34.183594 16.71875 34.40625 C 16.824219 34.554688 19.167969 37.6875 25 37.6875 C 30.910156 37.6875 33.257813 34.46875 33.28125 34.4375 C 33.597656 33.988281 34.234375 33.867188 34.6875 34.1875 C 35.136719 34.503906 35.222656 35.109375 34.90625 35.5625 C 34.789063 35.730469 31.9375 39.6875 25 39.6875 C 18.058594 39.6875 15.210938 35.730469 15.09375 35.5625 C 14.777344 35.109375 14.859375 34.503906 15.3125 34.1875 C 15.539063 34.027344 15.8125 33.957031 16.0625 34 Z" fill="#c5eef3"/>
+                            </svg>                                                      
+                            </a>
+                    </li>
+                    <li>
+                       <a href="https://discord.gg/7reJ67UvFe"><svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 41.625 10.769531 C 37.644531 7.566406 31.347656 7.023438 31.078125 7.003906 C 30.660156 6.96875 30.261719 7.203125 30.089844 7.589844 C 30.074219 7.613281 29.9375 7.929688 29.785156 8.421875 C 32.417969 8.867188 35.652344 9.761719 38.578125 11.578125 C 39.046875 11.867188 39.191406 12.484375 38.902344 12.953125 C 38.710938 13.261719 38.386719 13.429688 38.050781 13.429688 C 37.871094 13.429688 37.6875 13.378906 37.523438 13.277344 C 32.492188 10.15625 26.210938 10 25 10 C 23.789063 10 17.503906 10.15625 12.476563 13.277344 C 12.007813 13.570313 11.390625 13.425781 11.101563 12.957031 C 10.808594 12.484375 10.953125 11.871094 11.421875 11.578125 C 14.347656 9.765625 17.582031 8.867188 20.214844 8.425781 C 20.0625 7.929688 19.925781 7.617188 19.914063 7.589844 C 19.738281 7.203125 19.34375 6.960938 18.921875 7.003906 C 18.652344 7.023438 12.355469 7.566406 8.320313 10.8125 C 6.214844 12.761719 2 24.152344 2 34 C 2 34.175781 2.046875 34.34375 2.132813 34.496094 C 5.039063 39.605469 12.972656 40.941406 14.78125 41 C 14.789063 41 14.800781 41 14.8125 41 C 15.132813 41 15.433594 40.847656 15.621094 40.589844 L 17.449219 38.074219 C 12.515625 36.800781 9.996094 34.636719 9.851563 34.507813 C 9.4375 34.144531 9.398438 33.511719 9.765625 33.097656 C 10.128906 32.683594 10.761719 32.644531 11.175781 33.007813 C 11.234375 33.0625 15.875 37 25 37 C 34.140625 37 38.78125 33.046875 38.828125 33.007813 C 39.242188 32.648438 39.871094 32.683594 40.238281 33.101563 C 40.601563 33.515625 40.5625 34.144531 40.148438 34.507813 C 40.003906 34.636719 37.484375 36.800781 32.550781 38.074219 L 34.378906 40.589844 C 34.566406 40.847656 34.867188 41 35.1875 41 C 35.199219 41 35.210938 41 35.21875 41 C 37.027344 40.941406 44.960938 39.605469 47.867188 34.496094 C 47.953125 34.34375 48 34.175781 48 34 C 48 24.152344 43.785156 12.761719 41.625 10.769531 Z M 18.5 30 C 16.566406 30 15 28.210938 15 26 C 15 23.789063 16.566406 22 18.5 22 C 20.433594 22 22 23.789063 22 26 C 22 28.210938 20.433594 30 18.5 30 Z M 31.5 30 C 29.566406 30 28 28.210938 28 26 C 28 23.789063 29.566406 22 31.5 22 C 33.433594 22 35 23.789063 35 26 C 35 28.210938 33.433594 30 31.5 30 Z" fill="#c5eef3"/>
+                            </svg>                                                       
+                            </a>
+                        </a>
+                    </li>
+                </ul>
+                <h5 class="heading">don’t miss out, join now for latest news and updates</h5>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="wrap-fx">
+                    <div class="Copyright">
+                        <p class="sub-title">ANDROGEINU 2022- ALL rights reserved</p>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
     </div>
     <a id="scroll-top"></a>
     <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/swiper-bundle.min.js"></script>
+    <script src="app/js/swiper.js"></script>
     <script src="app/js/app.js"></script>
     <script src="app/js/jquery.easing.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-     <script src="app/js/count-down.js"></script>
+     <script src="app/js/parallax.js"></script>
+     <script src="app/js/jquery.magnific-popup.min.js"></script>
 </body>
 </html>
